@@ -4,7 +4,7 @@ import logging
 from aiogram import  Dispatcher
 
 from handlers import echo
-from loader import bot
+from loader import bot, db
 
 logger = logging.getLogger(__name__)
 
@@ -17,7 +17,11 @@ async def main():
 
     logger.info("Starting bot")
 
-  
+    try:
+        db.create_table_users()
+    except Exception as err:
+        print(err)
+
     dp: Dispatcher = Dispatcher()
 
     dp.include_router(echo.router)
