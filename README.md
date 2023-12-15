@@ -1,57 +1,19 @@
-# AIOgram Telegram Bot Template
+# topshiriqlar
 
-A simple structure for creating telegram bots using AIOgram 3.
+<!--  bot do'kon -->
+# 1. ro'yhatdan o'tish -> state, -> user profile  #tugadi
+# 2. menu qismi - > mahsulotlar, yordam, profil #tugadi
+# 3. mahsulotlar- > texnikalar, oziq-ovqat #tugadi
+# 4. texnikalar -> telefon, kompyuter, meva, sabzavot # tugadi
 
----
-***Readme template:***
+# 5. telefon -> telefonlar -> modellar -> samsung, Redmi, Apple -> telefonlar(nechta, image) -> telefon ma'lumtlari -> savatga qo'shish, hoziroq sotib olish, like -> miqdor 
 
-# [project name]
+# 6. savat - > qaysi mahsulotlarni olganini ko'rishi, sotib olish -> malumotlaringizni tasdiqlaysizmi? 
 
-![aiogram](https://img.shields.io/badge/python-v3.10-blue.svg?logo=python&logoColor=yellow) ![aiogram](https://img.shields.io/badge/aiogram-v3-blue.svg?logo=telegram) ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-About...
-
-## Features
-
-The bot provides the following features:
-
--
--
-
-## Commands
-
-The bot has several commands that can be used to access its features:
-
-- `/start`: Sends a ...
-- `/help`: Sends a ...
-
-## Requirements
-
-- Python v3.10
-- aiogram v3
-- dotenv v1
-
-## Installation
-
-To get started with this bot, follow these steps:
-
-- Clone this repository to your local machine.
-
-    ```
-    $ git clone [source]
-    ```
-
-- Create a virtual environment, activate it and install required dependencies.
-
-    ```
-    $ python3.10 -m venv env
-    $ source env/bin/activate
-    $ pip install -r requirements/local.txt
-    ```
-
-- Create a new bot on Telegram by talking to the BotFather, and [obtain the API token](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token).
-
-- Rename the file `.env.dist` to `.env` and replace the placeholders with required data.
-
-- Run the bot using `python bot.py`.
-
+<!-- yetkazib berish -->
+# 1. ro'yhatdan o'tish
+# 2.  menu qismi - > mahsulotlar, yordam, profil
+# 3. mahsulotlar - > fast-food, milliy -> oziq-ovqatlar
+# 4. savatga qo'shish
+# 5. savat - > qaysi mahsulotlarni olganini ko'rishi, sotib olish -> malumotlaringizni tasdiqlaysizmi
